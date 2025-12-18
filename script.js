@@ -9,23 +9,7 @@ const products = [
         description: "A staple for any wardrobe. Made from 100% organic cotton, this tee offers a relaxed fit and breathable comfort.",
         isBestSeller: true
     },
-    {
-        id: 2,
-        name: "Structured Wool Coat",
-        category: "women",
-        price: 250,
-        image: "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        description: "Elegant and warm, this wool coat features a tailored silhouette perfect for the modern woman.",
-        isBestSeller: true
-    },
-    {
-        id: 3,
-        name: "Essential Wool Cap",
-        category: "essentials",
-        price: 120,
-        image: "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        description: "Soft knitted wool cap designed for everyday comfort. Keeps you warm while adding a minimal, modern style to any outfit.",
-        isBestSeller: false
+    
     },
     {
         id: 4,
