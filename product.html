@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details | LUMIÈRE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="index.html">Lumière</a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html" class="active">Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="rate-list.html">Rate-List</a></li>
+                </ul>
+                <div class="nav-icons">
+                    <a href="cart.html" class="cart-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="9" cy="21" r="1"></circle>
+                            <circle cx="20" cy="21" r="1"></circle>
+                            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                        </svg>
+                        <span class="cart-count">0</span>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container" id="product-detail-container">
+        <div class="product-detail">
+            <div class="product-gallery">
+                <img id="main-image" src="" alt="Product Image" class="main-image">
+                <div class="thumbnails">
+                    <img src="https://via.placeholder.com/100x120/f4f4f4/cccccc?text=1" class="thumbnail active">
+                    <img src="https://via.placeholder.com/100x120/f4f4f4/cccccc?text=2" class="thumbnail">
+                    <img src="https://via.placeholder.com/100x120/f4f4f4/cccccc?text=3" class="thumbnail">
+                </div>
+            </div>
+
+            <div class="product-info-detail">
+                <h1 id="product-name">Product Name</h1>
+                <p id="product-price" class="price-detail">$0.00</p>
+                <p id="product-description" class="description">Description goes here.</p>
+
+                <div class="size-selector">
+                    <h4>Select Size</h4>
+                    <div class="sizes">
+                        <button class="size-btn" data-size="S">S</button>
+                        <button class="size-btn" data-size="M">M</button>
+                        <button class="size-btn" data-size="L">L</button>
+                        <button class="size-btn" data-size="XL">XL</button>
+                    </div>
+                </div>
+
+                <button id="add-to-cart" class="btn">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Lumière</h4>
+                    <p style="color: #888; font-size: 0.9rem;">Redefining modern luxury with sustainable materials and
+                        timeless design.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="shop.html">New Arrivals</a></li>
+                        <li><a href="shop.html">Men</a></li>
+                        <li><a href="shop.html">Women</a></li>
+                        <li><a href="shop.html">Essentials</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Help</h4>
+                    <ul>
+                        <li><a href="#">Shipping & Returns</a></li>
+                        <li><a href="#">Size Guide</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <ul>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Pinterest</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Group Members</h4>
+                    <ul li>
+                        <li>Awais (Leader)</li>
+                        <li>Ali Ahmed</li>
+                        <li>Salman Faisal</li>
+                    </ul li>
+                </div>
+
+            </div>
+            <div class="copyright">
+                &copy; 2025 Lumière. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
