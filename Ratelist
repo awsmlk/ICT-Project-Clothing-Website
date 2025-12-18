@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUMIÈRE | Luxury Essentials</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="index.html">Lumière</a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                     <li><a href="rate-list.html">Rate-List</a></li>
+                </ul>
+                <div class="nav-icons">
+                    <a href="cart.html" class="cart-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="9" cy="21" r="1"></circle>
+                            <circle cx="20" cy="21" r="1"></circle>
+                            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                        </svg>
+                        <span class="cart-count">0</span>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+<section class="container" style="margin: 4rem auto;">
+    <h2 class="section-title">Rate List</h2>
+
+    <table class="rate-table">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Category</th>
+                <th>Size</th>
+                <th>Color</th>
+                <th>Dollar $</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Minialist Classic Tee</td>
+                <td>Men</td>
+                <td>M / L / XL</td>
+                <td>White/Balck</td>
+                <td>$85</td>
+            </tr>
+            <tr>
+                <td>Structured Wool Cost</td>
+                <td>Women</td>
+                <td>S / M / L</td>
+                <td>Brown</td>
+                <td>$250</td>
+            </tr>
+            <tr>
+                <td>Essencial Denim Jacket</td>
+                <td>Essentials</td>
+                <td>M / L</td>
+                <td>Grey/Pink</td>
+                <td>$120</td>
+            </tr>
+            <tr>
+                <td>Slim Fit Chino</td>
+                <td>Men</td>
+                <td>30–36</td>
+                <td>Brown</td>
+                <td>$85</td>
+            </tr>
+            <tr>
+                <td>Slik Blouse</td>
+                <td>Women</td>
+                <td>S/M/L</td>
+                <td>Baby Pink/White</td>
+                <td>$110</td>
+            </tr>
+            <tr>
+                <td>Leather Weekend Bag</td>
+                <td>Essencial</td>
+                <td>S/M/L</td>
+                <td>Navy</td>
+                <td>$320</td>
+            </tr>
+            <tr>
+                <td>Cashmere Sweater</td>
+                <td>Men</td>
+                <td>S/M/L</td>
+                <td>Brown</td>
+                <td>$180</td>
+            </tr>
+            <tr>
+                <td>Oxword Shirt</td>
+                <td>Men</td>
+                <td>S/M/L</td>
+                <td>Navy</td>
+                <td>$75</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Lumière</h4>
+                    <p style="color: #888; font-size: 0.9rem;">Redefining modern luxury with sustainable materials and
+                        timeless design.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="shop.html">New Arrivals</a></li>
+                        <li><a href="shop.html">Men</a></li>
+                        <li><a href="shop.html">Women</a></li>
+                        <li><a href="shop.html">Essentials</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Help</h4>
+                    <ul>
+                        <li><a href="#">Shipping & Returns</a></li>
+                        <li><a href="#">Size Guide</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <ul>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Pinterest</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Group Members</h4>
+                    <ul li>
+                        <li>Awais (Leader)</li>
+                        <li>Ali Ahmed</li>
+                        <li>Salman Faisal</li>
+                    </ul li>
+                </div>
+
+            </div>
+            <div class="copyright">
+                &copy; 2025 Lumière. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
