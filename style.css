@@ -55,7 +55,7 @@ ul {
 }
 ul li {
     list-style:none;
-     color: var(--color-gray-medium);
+    color: var(--color-gray-medium);
 }
 img {
     max-width: 100%;
@@ -509,7 +509,6 @@ footer {
     gap: 2rem;
 }
 
-
 .footer-col h4 {
     color: var(--color-white);
     font-size: 1rem;
@@ -537,11 +536,12 @@ footer {
     padding-top: var(--spacing-md);
     font-size: 0.8rem;
 }
+
 .rate-table {
     width: 80%;
     margin: 2rem auto;
     border-collapse: collapse;
-    table-layout: fixed; /* IMPORTANT */
+    table-layout: fixed;
     background-color: #fff;
 }
 
@@ -549,7 +549,7 @@ footer {
 .rate-table td {
     border: 1px solid #ddd;
     padding: 12px;
-    text-align: center; /* aligns headers with data */
+    text-align: center;
     vertical-align: middle;
 }
 
@@ -558,7 +558,6 @@ footer {
     color: #fff;
     font-weight: 600;
 }
-
 
 /* Responsive */
 @media (max-width: 768px) {
@@ -579,6 +578,6 @@ footer {
     }
     
     .nav-links {
-        display: none; /* Simplified for this demo, normally would be a hamburger menu */
+        display: none;
     }
 }
