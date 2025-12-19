@@ -220,7 +220,6 @@ function addToCart(product, size) {
     cart.push({ ...product, size, cartId: Date.now() });
     localStorage.setItem('cart', JSON.stringify(cart));
     updateCartCount();
-    alert('Added to cart!');
 }
 
 function updateCartCount() {
