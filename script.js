@@ -1,4 +1,3 @@
-// Dummy Product Data
 const products = [
     {
         id: 1,
@@ -20,11 +19,11 @@ const products = [
     },
     {
         id: 3,
-        name: "Essential Wool Cap",
+        name: "Essential Denim Jacket",
         category: "essentials",
         price: 120,
         image: "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        description: "Soft knitted wool cap designed for everyday comfort. Keeps you warm while adding a minimal, modern style to any outfit.",
+        description: "Classic denim jacket with a modern twist. Durable, stylish, and versatile.",
         isBestSeller: false
     },
     {
@@ -85,11 +84,11 @@ const cartCount = document.querySelector('.cart-count');
 // Initialization
 document.addEventListener('DOMContentLoaded', () => {
     updateCartCount();
-
+    
     if (bestSellersGrid) {
         renderBestSellers();
     }
-
+    
     if (productGrid) {
         renderShopProducts();
         setupFilters();
@@ -143,7 +142,7 @@ function setupFilters() {
         const selectedCategories = Array.from(categoryInputs)
             .filter(input => input.checked)
             .map(input => input.value);
-
+        
         const selectedPrices = Array.from(priceInputs)
             .filter(input => input.checked)
             .map(input => input.value);
@@ -312,7 +311,7 @@ if (window.location.pathname.includes('checkout.html')) {
     }
 
     const total = cart.reduce((sum, item) => sum + item.price, 0);
-
+    
     checkoutItems.innerHTML = cart.map(item => `
         <div class="summary-item">
             <span>${item.name} (x1)</span>
@@ -330,11 +329,10 @@ if (window.location.pathname.includes('checkout.html')) {
     });
 }
 
-
 // Contact Form Validation
 function setupContactForm() {
     const form = document.getElementById('contact-form');
-
+    
     form.addEventListener('submit', (e) => {
         e.preventDefault();
         let isValid = true;
