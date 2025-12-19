@@ -18,15 +18,6 @@ const products = [
         isBestSeller: true
     },
     {
-        id: 3,
-        name: "Essential Denim Jacket",
-        category: "essentials",
-        price: 120,
-        image: "https://images.unsplash.com/photo-1537465978529-d23b17165b3b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        description: "Classic denim jacket with a modern twist. Durable, stylish, and versatile.",
-        isBestSeller: false
-    },
-    {
         id: 4,
         name: "Slim Fit Chinos",
         category: "men",
